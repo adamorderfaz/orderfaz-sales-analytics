@@ -11,10 +11,6 @@ from stqdm import stqdm  # Import stqdm for Streamlit integration
 from PIL import Image
 import plotly.express as px
 
-# ===== Set Page =====
-icon_image = Image.open("orderfaz.jpeg")
-st.set_page_config(page_title="Orderfaz - Weekly Report", page_icon=icon_image, layout="wide")
-
 # ===== Connect & Fetch Database =====
 # Access secrets using st.secrets
 user = st.secrets["snowflake"]["user"]
