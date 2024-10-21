@@ -6,7 +6,7 @@ from PIL import Image
 import snowflake.connector
 
 # ----- Set Title -----
-st.title('Order Anomalies Dashboard')
+st.write("# Shipping Performance Weekly Report")
 
 # ----- Set Connection to Snowflake -----
 
