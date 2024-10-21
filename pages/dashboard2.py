@@ -31,7 +31,7 @@ connection = snowflake.connector.connect(
 )
 
 # ===== Streamlit Input Widgets =====
-st.write("# Shipping Performance Monthly Report")
+st.title("Shipping Performance Monthly Report")
 
 # Input bulan dan tahun
 month_input = st.selectbox("Pilih Bulan", range(1, 13), format_func=lambda x: datetime(1900, x, 1).strftime('%B'))
