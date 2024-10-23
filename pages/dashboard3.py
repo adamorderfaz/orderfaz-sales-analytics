@@ -6,7 +6,7 @@ from PIL import Image
 import snowflake.connector
 
 # ----- Set Title -----
-st.title('Coming Soon : Wait for Another Reqs')
+st.error('Coming Soon : Feature is Still On-Progress')
 
 
 
