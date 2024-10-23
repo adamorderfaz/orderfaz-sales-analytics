@@ -10,7 +10,7 @@ icon_image = Image.open("orderfaz.jpeg")
 # ----- Set Page Sidebar -----
 p1 = st.Page("pages/dashboard1.py", title="GMV Weekly", icon=":material/date_range:")
 p2 = st.Page("pages/dashboard2.py", title="GMV Monthly", icon=":material/calendar_month:")
-p3 = st.Page("pages/dashboard3.py", title="Coming Soon", icon=":material/hourglass_top:")
+p3 = st.Page("pages/dashboard3.py", title="Top Revenue", icon=":material/hourglass_top:")
 
 # ----- Install Multi-page Navigation -----
 pg = st.navigation({
